@@ -1,4 +1,5 @@
 boolean isClassmates=true;
+boolean areClassmates= true;
 
 void setup() {
 
@@ -24,7 +25,7 @@ void setup() {
 }
 
 boolean isClassmates(Student student1, Student student2) {
-  if (student1 == student2) {
+  if (student1.equals(student2)) {
     return true;
   } else {
     return false;

@@ -14,6 +14,10 @@ class Teacher {
 
     name=newName;
   }
+  String getName(){
+  return name;
+  }
+  
   //  String changeName(String newName) {
 
   //  name=newName;

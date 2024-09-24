@@ -14,6 +14,8 @@ void setup(){
   
   println(teacher1.name);
   
+  println(teacher1.getName());
+  
   
 
 
